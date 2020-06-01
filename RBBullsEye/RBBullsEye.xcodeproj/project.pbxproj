@@ -15,6 +15,7 @@
 		7973ACFB24701670006DC218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7973ACF924701670006DC218 /* LaunchScreen.storyboard */; };
 		7973AD0624701670006DC218 /* RBBullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973AD0524701670006DC218 /* RBBullsEyeTests.swift */; };
 		7973AD1124701670006DC218 /* RBBullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973AD1024701670006DC218 /* RBBullsEyeUITests.swift */; };
+		79CFA61124852B9400970938 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFA61024852B9400970938 /* TimeCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7973AD0C24701670006DC218 /* RBBullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBBullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7973AD1024701670006DC218 /* RBBullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBBullsEyeUITests.swift; sourceTree = "<group>"; };
 		7973AD1224701670006DC218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CFA61024852B9400970938 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				7973ACEE24701670006DC218 /* AppDelegate.swift */,
+				79CFA61024852B9400970938 /* TimeCounter.swift */,
 				7973ACF024701670006DC218 /* SceneDelegate.swift */,
 				7973ACF224701670006DC218 /* ContentView.swift */,
 				7973ACF424701670006DC218 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 				7973ACEF24701670006DC218 /* AppDelegate.swift in Sources */,
 				7973ACF124701670006DC218 /* SceneDelegate.swift in Sources */,
 				7973ACF324701670006DC218 /* ContentView.swift in Sources */,
+				79CFA61124852B9400970938 /* TimeCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
