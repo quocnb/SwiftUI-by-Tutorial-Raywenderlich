@@ -18,7 +18,7 @@ struct ContentView: View {
             Text("Put the Bull's Eye as close as you can do: \(target)")
             HStack {
                 Text("0")
-                Slider(value: $guess)
+                Slider(value: $guess).background(Color.blue.opacity(sliderOpacity()))
                 Text("100")
             }.padding(.horizontal)
             Button(action: {
@@ -35,6 +35,10 @@ struct ContentView: View {
     private func score() -> Int {
         let difference = abs(target - Int(100*guess))
         return 100 - difference
+    }
+    
+    private func sliderOpacity() -> Double {
+        return abs(Double(target) / 100 - guess)
     }
 }
 
